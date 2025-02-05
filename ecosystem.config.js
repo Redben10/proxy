@@ -4,11 +4,11 @@ module.exports = {
       name: 'HolyUBLTS',
       script: './backend.js',
       env: {
-        PORT: 443,
+        PORT: 8080,
         NODE_ENV: 'development',
       },
       env_production: {
-        PORT: 443,
+        PORT: 8080,
         NODE_ENV: 'production',
       },
       instances: '1',
